@@ -58,7 +58,7 @@ Total number of contributors: <!--CONTRIBUTOR COUNT START--> <!--CONTRIBUTOR COU
 
 # Tier 3 Release Guidelines
 
-codejson-generator will see regular updates and new releases. This document describes the general guidelines around how and when a new release is cut.
+unsdg-formsite will see regular updates and new releases. This document describes the general guidelines around how and when a new release is cut.
 
 ## Table of Contents
 
@@ -78,7 +78,7 @@ codejson-generator will see regular updates and new releases. This document desc
 
 ## Versioning
 
-codejson-generator uses [Semantic Versioning](https://semver.org/). Each release is associated with a [`git tag`](github.com/DSACMS/codejson-generator/tags) of the form `X.Y.Z`.
+unsdg-formsite uses [Semantic Versioning](https://semver.org/). Each release is associated with a [`git tag`](github.com/CHAOSS/unsdg-formsite/tags) of the form `X.Y.Z`.
 
 Given a version number in the `MAJOR.MINOR.PATCH` (eg., `X.Y.Z`) format, here are the differences in these terms:
 
@@ -145,7 +145,7 @@ Once an item is moved out of beta, close its Issue and change the text to say 'B
 
 ## Preparing a Release Candidate
 
-The following steps outline the process to prepare a Release Candidate of codejson-generator. This process makes public the intention and contents of an upcoming release, while allowing work on the next release to continue as usual in `dev`.
+The following steps outline the process to prepare a Release Candidate of unsdg-formsite. This process makes public the intention and contents of an upcoming release, while allowing work on the next release to continue as usual in `dev`.
 
 1. Create a _Release branch_ from the tip of `dev` named `release-x.y.z`, where `x.y.z` is the intended version of the release. This branch will be used to prepare the Release Candidate. For example, to prepare a Release Candidate for `0.5.0`:
 
@@ -199,7 +199,7 @@ Repeat as-needed for subsequent Release Candidates. Note the release branch will
 
 ## Making a Release
 
-The following steps describe how to make an approved [Release Candidate](#preparing-a-release-candidate) an official release of codejson-generator:
+The following steps describe how to make an approved [Release Candidate](#preparing-a-release-candidate) an official release of unsdg-formsite:
 
 1. **Approved**. Ensure review has been completed and approval granted.
 
@@ -277,4 +277,4 @@ In rare cases, a hotfix for a prior release may be required out-of-phase with th
    This is a pre-release: DO NOT check
    ```
 
-[proj-releases-new]: https://github.com/DSACMS/codejson-generator/releases/new
+[proj-releases-new]: https://github.com/CHAOSS/unsdg-formsite/releases/new
