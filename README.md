@@ -30,8 +30,8 @@ An up-to-date list of core team members can be found in [MAINTAINERS.md](MAINTAI
 
 ##### Schemas
 
-- [Example Schema 1](./input.json)
-- [Example Schema 2](./input-example-2.json)
+- [Example Schema 1](./schemas/input.json)
+- [Example Schema 2](./schemas/input-example-2.json)
 
 ##### Files
 
