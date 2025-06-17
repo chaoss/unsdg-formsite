@@ -23,7 +23,7 @@
       },
       "sdg_1_2_2": {
         "type": "boolean",
-        "description": "Does your project pertain to: Proportion of men, women and children of all ages living in poverty in all its dimensions acc ording to national definitions? (Goal 1, Target 1.2)"
+        "description": "Does your project pertain to: Proportion of men, women and children of all ages living in poverty in all its dimensions according to national definitions? (Goal 1, Target 1.2)"
       },
       "sdg_1_3_1": {
         "type": "boolean",
@@ -52,6 +52,970 @@
       "sdg_1_5_4": {
         "type": "boolean",
         "description": "Does your project pertain to: Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies? (Goal 1, Target 1.5)"
+      },
+      "sdg_1_a_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of total government spending on essential services (education, health and social protection)? (Goal 1, Target 1.a)"
+      },
+      "sdg_1_a_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Total official development assistance grants that focus on poverty reduction as a share of the recipient country’s gross national income? (Goal 1, Target 1.a)"
+      },
+      "sdg_1_b_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Pro-poor public social spending? (Goal 1, Target 1.b)"
+      },
+      "sdg_2_1_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Prevalence of undernourishment? (Goal 2, Target 2.1)"
+      },
+      "sdg_2_1_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Prevalence of moderate or severe food insecurity in the population, based on the Food Insecurity Experience Scale (FIES)? (Goal 2, Target 2.1)"
+      },
+      "sdg_2_2_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Prevalence of stunting (height for age <-2 standard deviation from the median of the World Health Organization (WHO) Child Growth Standards) among children under 5 years of age? (Goal 2, Target 2.2)"
+      },
+      "sdg_2_2_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Prevalence of malnutrition (weight for height >+2 or <-2 standard deviation from the median of the WHO Child Growth Standards) among children under 5 years of age, by type (wasting and overweight)? (Goal 2, Target 2.2)"
+      },
+      "sdg_2_2_3": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Prevalence of anaemia in women aged 15 to 49 years, by pregnancy status (percentage)? (Goal 2, Target 2.2)"
+      },
+      "sdg_2_2_4": {
+        "type": "boolean",
+        "description": "Does your project pertain to: 2.2.4 Prevalence of minimum dietary diversity, by population group (children aged 6 to 23.9 months and non-pregnant women aged 15 to 49 years)? (Goal 2, Target 2.2)"
+      },
+      "sdg_2_3_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Volume of production per labour unit by classes of farming/pastoral/forestry enterprise size? (Goal 2, Target 2.3)"
+      },
+      "sdg_2_3_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Average income of small-scale food producers, by sex and indigenous status? (Goal 2, Target 2.3)"
+      },
+      "sdg_2_4_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of agricultural area under productive and sustainable agriculture? (Goal 2, Target 2.4)"
+      },
+      "sdg_2_5_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Number of (a) plant and (b) animal genetic resources for food and agriculture secured in either medium- or long-term conservation facilities? (Goal 2, Target 2.5)"
+      },
+      "sdg_2_5_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of local and transboundary breeds classified as being at risk of extinction? (Goal 2, Target 2.5)"
+      },
+      "sdg_2_a_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: The agriculture orientation index for government expenditures? (Goal 2, Target 2.a)"
+      },
+      "sdg_2_a_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Total official flows (official development assistance plus other official flows) to the agriculture sector? (Goal 2, Target 2.a)"
+      },
+      "sdg_2_b_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Agricultural export subsidies? (Goal 2, Target 2.b)"
+      },
+      "sdg_2_c_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Indicator of food price anomalies? (Goal 2, Target 2.c)"
+      },
+      "sdg_3_1_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Maternal mortality ratio? (Goal 3, Target 3.1)"
+      },
+      "sdg_3_1_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of births attended by skilled health personnel? (Goal 3, Target 3.1)"
+      },
+      "sdg_3_2_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Under‑5 mortality rate? (Goal 3, Target 3.2)"
+      },
+      "sdg_3_2_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Neonatal mortality rate? (Goal 3, Target 3.2)"
+      },
+      "sdg_3_3_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Number of new HIV infections per 1,000 uninfected population, by sex, age and key populations? (Goal 3, Target 3.3)"
+      },
+      "sdg_3_3_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Tuberculosis incidence per 100,000 population? (Goal 3, Target 3.3)"
+      },
+      "sdg_3_3_3": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Malaria incidence per 1,000 population? (Goal 3, Target 3.3)"
+      },
+      "sdg_3_3_5": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Number of people requiring interventions against neglected tropical diseases? (Goal 3, Target 3.3)"
+      },
+      "sdg_3_3_4": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Hepatitis B incidence per 100,000 population? (Goal 3, Target 3.3)"
+      },
+      "sdg_3_4_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease? (Goal 3, Target 3.4)"
+      },
+      "sdg_3_4_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Suicide mortality rate? (Goal 3, Target 3.4)"
+      },
+      "sdg_3_5_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Alcohol per capita consumption (aged 15 years and older) within a calendar year in litres of pure alcohol? (Goal 3, Target 3.5)"
+      },
+      "sdg_3_5_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Coverage of treatment interventions (pharmacological, psychosocial and rehabilitation and aftercare services) for substance use disorders? (Goal 3, Target 3.5)"
+      },
+      "sdg_3_6_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Death rate due to road traffic injuries? (Goal 3, Target 3.6)"
+      },
+      "sdg_3_7_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of women of reproductive age (aged 15-49 years) who have their need for family planning satisfied with modern methods? (Goal 3, Target 3.7)"
+      },
+      "sdg_3_7_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Adolescent birth rate (aged 10-14 years; aged 15-19 years) per 1,000 women in that age group? (Goal 3, Target 3.7)"
+      },
+      "sdg_3_8_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of population with large household expenditures on health as a share of total household expenditure or income? (Goal 3, Target 3.8)"
+      },
+      "sdg_3_8_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Coverage of essential health services? (Goal 3, Target 3.8)"
+      },
+      "sdg_3_9_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Mortality rate attributed to household and ambient air pollution? (Goal 3, Target 3.9)"
+      },
+      "sdg_3_9_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene (exposure to unsafe Water, Sanitation and Hygiene for All (WASH) services)? (Goal 3, Target 3.9)"
+      },
+      "sdg_3_9_3": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Mortality rate attributed to unintentional poisoning? (Goal 3, Target 3.9)"
+      },
+      "sdg_3_a_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Age-standardized prevalence of current tobacco use among persons aged 15 years and older? (Goal 3, Target 3.a)"
+      },
+      "sdg_3_b_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Total net official development assistance to medical research and basic health sectors? (Goal 3, Target 3.b)"
+      },
+      "sdg_3_b_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of the target population covered by all vaccines included in their national programme? (Goal 3, Target 3.b)"
+      },
+      "sdg_3_b_3": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Health product access index? (Goal 3, Target 3.b)"
+      },
+      "sdg_3_c_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Health worker density and distribution? (Goal 3, Target 3.c)"
+      },
+      "sdg_3_d_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: International Health Regulations (IHR) capacity and health emergency preparedness? (Goal 3, Target 3.d)"
+      },
+      "sdg_3_d_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Percentage of bloodstream infections due to selected antimicrobial-resistant organisms? (Goal 3, Target 3.d)"
+      },
+      "sdg_4_1_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of children and young people (a) in grades 2/3; (b) at the end of primary; and (c) at the end of lower secondary achieving at least a minimum proficiency level in (i) reading and (ii) mathematics, by sex? (Goal 4, Target 4.1)"
+      },
+      "sdg_4_1_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Completion rate (primary education, lower secondary education, upper secondary education)? (Goal 4, Target 4.1)"
+      },
+      "sdg_4_2_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of children aged 24-59 months who are developmentally on track in health, learning and psychosocial well-being, by sex? (Goal 4, Target 4.2)"
+      },
+      "sdg_4_2_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Participation rate in organized learning (one year before the official primary entry age), by sex? (Goal 4, Target 4.2)"
+      },
+      "sdg_4_3_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Participation rate of youth and adults in formal and non-formal education and training in the previous 12 months, by sex? (Goal 4, Target 4.3)"
+      },
+      "sdg_4_4_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of youth and adults with information and communications technology (ICT) skills, by type of skill? (Goal 4, Target 4.4)"
+      },
+      "sdg_4_5_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Parity indices (female/male, rural/urban, bottom/top wealth quintile and others such as disability status, indigenous peoples and conflict-affected, as data become available) for all education indicators on this list that can be disaggregated? (Goal 4, Target 4.5)"
+      },
+      "sdg_4_6_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Youth/adult literacy rate? (Goal 4, Target 4.6)"
+      },
+      "sdg_4_7_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Extent to which (i) global citizenship education and (ii) education for sustainable development are mainstreamed in (a) national education policies; (b) curricula; (c) teacher education; and (d) student assessment? (Goal 4, Target 4.7)"
+      },
+      "sdg_4_a_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of schools offering basic services, by type of service? (Goal 4, Target 4.a)"
+      },
+      "sdg_4_b_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Volume of official development assistance flows for scholarships? (Goal 4, Target 4.b)"
+      },
+      "sdg_4_c_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of teachers with the minimum required qualifications, by education level? (Goal 4, Target 4.c)"
+      },
+      "sdg_5_1_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Whether or not legal frameworks are in place to promote, enforce and monitor equality and non‑discrimination on the basis of sex? (Goal 5, Target 5.1)"
+      },
+      "sdg_5_2_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of ever-partnered women and girls aged 15 years and older subjected to physical, sexual or psychological violence by a current or former intimate partner in the previous 12 months, by form of violence and by age? (Goal 5, Target 5.2)"
+      },
+      "sdg_5_2_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of women and girls aged 15 years and older subjected to sexual violence by persons other than an intimate partner in the previous 12 months, by age and place of occurrence? (Goal 5, Target 5.2)"
+      },
+      "sdg_5_3_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of women aged 20-24 years who were married or in a union before age 15 and before age 18? (Goal 5, Target 5.3)"
+      },
+      "sdg_5_3_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of girls and women aged 15-49 years who have undergone female genital mutilation, by age? (Goal 5, Target 5.3)"
+      },
+      "sdg_5_4_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of time spent on unpaid domestic and care work, by sex, age and location? (Goal 5, Target 5.4)"
+      },
+      "sdg_5_5_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of seats held by women in (a) national parliaments and (b) local governments? (Goal 5, Target 5.5)"
+      },
+      "sdg_5_5_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of women in managerial positions? (Goal 5, Target 5.5)"
+      },
+      "sdg_5_6_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of women aged 15-49 years who make their own informed decisions regarding sexual relations, contraceptive use and reproductive health care? (Goal 5, Target 5.6)"
+      },
+      "sdg_5_6_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Number of countries with laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education? (Goal 5, Target 5.6)"
+      },
+      "sdg_5_a_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: (a) Proportion of total agricultural population with ownership or secure rights over agricultural land, by sex; and (b) share of women among owners or rights-bearers of agricultural land, by type of tenure? (Goal 5, Target 5.a)"
+      },
+      "sdg_5_a_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of countries where the legal framework (including customary law) guarantees women’s equal rights to land ownership and/or control? (Goal 5, Target 5.a)"
+      },
+      "sdg_5_b_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of individuals who own a mobile telephone, by sex? (Goal 5, Target 5.b)"
+      },
+      "sdg_5_c_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of countries with systems to track and make public allocations for gender equality and women’s empowerment? (Goal 5, Target 5.c)"
+      },
+      "sdg_6_1_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of population using safely managed drinking water services? (Goal 6, Target 6.1)"
+      },
+      "sdg_6_2_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of population using (a) safely managed sanitation services and (b) a hand-washing facility with soap and water? (Goal 6, Target 6.2)"
+      },
+      "sdg_6_3_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of bodies of water with good ambient water quality? (Goal 6, Target 6.3)"
+      },
+      "sdg_6_3_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of domestic and industrial wastewater flows safely treated? (Goal 6, Target 6.3)"
+      },
+      "sdg_6_4_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Level of water stress: freshwater withdrawal as a proportion of available freshwater resources? (Goal 6, Target 6.4)"
+      },
+      "sdg_6_4_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Change in water-use efficiency over time? (Goal 6, Target 6.4)"
+      },
+      "sdg_6_5_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Degree of integrated water resources management? (Goal 6, Target 6.5)"
+      },
+      "sdg_6_5_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of transboundary basin area with an operational arrangement for water cooperation? (Goal 6, Target 6.5)"
+      },
+      "sdg_6_6_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Change in the extent of water-related ecosystems over time? (Goal 6, Target 6.6)"
+      },
+      "sdg_6_a_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Amount of water- and sanitation-related official development assistance that is part of a government-coordinated spending plan? (Goal 6, Target 6.a)"
+      },
+      "sdg_6_b_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of local administrative units with established and operational policies and procedures for participation of local communities in water and sanitation management? (Goal 6, Target 6.b)"
+      },
+      "sdg_7_1_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of population with access to electricity? (Goal 7, Target 7.1)"
+      },
+      "sdg_7_1_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of population with primary reliance on clean fuels and technology? (Goal 7, Target 7.1)"
+      },
+      "sdg_7_2_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Renewable energy share in the total final energy consumption? (Goal 7, Target 7.2)"
+      },
+      "sdg_7_3_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Energy intensity measured in terms of primary energy and GDP? (Goal 7, Target 7.3)"
+      },
+      "sdg_7_a_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: International financial flows to developing countries in support of clean energy research and development and renewable energy production, including in hybrid systems? (Goal 7, Target 7.a)"
+      },
+      "sdg_7_b_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Installed renewable energy-generating capacity in developing and developed countries (in watts per capita)? (Goal 7, Target 7.b)"
+      },
+      "sdg_8_2_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Annual growth rate of real GDP per employed person? (Goal 8, Target 8.2)"
+      },
+      "sdg_8_3_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of informal employment in total employment, by sector and sex? (Goal 8, Target 8.3)"
+      },
+      "sdg_8_4_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Material footprint, material footprint per capita, and material footprint per GDP? (Goal 8, Target 8.4)"
+      },
+      "sdg_8_4_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Domestic material consumption, domestic material consumption per capita, and domestic material consumption per GDP? (Goal 8, Target 8.4)"
+      },
+      "sdg_8_5_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Average hourly earnings of employees, by sex, age, occupation and persons with disabilities? (Goal 8, Target 8.5)"
+      },
+      "sdg_8_5_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Unemployment rate, by sex, age and persons with disabilities? (Goal 8, Target 8.5)"
+      },
+      "sdg_8_6_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of youth (aged 15-24 years) not in education, employment or training? (Goal 8, Target 8.6)"
+      },
+      "sdg_8_7_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion and number of children aged 5-17 years engaged in child labour, by sex and age? (Goal 8, Target 8.7)"
+      },
+      "sdg_8_1_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Annual growth rate of real GDP per capita? (Goal 8, Target 8.1)"
+      },
+      "sdg_8_8_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Fatal and non-fatal occupational injuries per 100,000 workers, by sex and migrant status? (Goal 8, Target 8.8)"
+      },
+      "sdg_8_8_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Level of national compliance with labour rights (freedom of association and collective bargaining) based on International Labour Organization (ILO) textual sources and national legislation, by sex and migrant status? (Goal 8, Target 8.8)"
+      },
+      "sdg_8_9_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Tourism direct GDP as a proportion of total GDP and in growth rate? (Goal 8, Target 8.9)"
+      },
+      "sdg_8_9_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Employed persons in the tourism industries? (Goal 8, Target 8.9)"
+      },
+      "sdg_8_10_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: (a) Number of commercial bank branches per 100,000 adults and (b) number of automated teller machines (ATMs) per 100,000 adults? (Goal 8, Target 8.10)"
+      },
+      "sdg_8_10_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of adults (15 years and older) with an account at a bank or other financial institution or with a mobile-money-service provider? (Goal 8, Target 8.10)"
+      },
+      "sdg_8_a_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Aid for Trade commitments and disbursements? (Goal 8, Target 8.a)"
+      },
+      "sdg_8_b_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Existence of a developed and operationalized national strategy for youth employment, as a distinct strategy or as part of a national employment strategy? (Goal 8, Target 8.b)"
+      },
+      "sdg_9_1_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Passenger and freight volumes, by mode of transport? (Goal 9, Target 9.1)"
+      },
+      "sdg_9_1_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of the rural population who live within 2 km of an all-season road? (Goal 9, Target 9.1)"
+      },
+      "sdg_9_2_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Manufacturing value added as a proportion of GDP and per capita? (Goal 9, Target 9.2)"
+      },
+      "sdg_9_2_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Manufacturing employment as a proportion of total employment? (Goal 9, Target 9.2)"
+      },
+      "sdg_9_3_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of small-scale industries in total industry value added, based on (a) international classification and (b) national classifications? (Goal 9, Target 9.3)"
+      },
+      "sdg_9_3_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of small-scale industries with a loan or line of credit? (Goal 9, Target 9.3)"
+      },
+      "sdg_9_4_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: CO2 emission per unit of value added? (Goal 9, Target 9.4)"
+      },
+      "sdg_9_5_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Research and development expenditure as a proportion of GDP? (Goal 9, Target 9.5)"
+      },
+      "sdg_9_5_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Researchers (in full-time equivalent) per million inhabitants? (Goal 9, Target 9.5)"
+      },
+      "sdg_9_a_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Total official international support (official development assistance plus other official flows) to infrastructure? (Goal 9, Target 9.a)"
+      },
+      "sdg_9_b_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of medium and high-tech industry value added in total value added? (Goal 9, Target 9.b)"
+      },
+      "sdg_9_c_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of population covered by a mobile network, by technology? (Goal 9, Target 9.c)"
+      },
+      "sdg_10_1_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Growth rates of household expenditure or income per capita among the bottom 40 per cent of the population and the total population? (Goal 10, Target 10.1)"
+      },
+      "sdg_10_2_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of people living below 50 per cent of median income, by sex, age and persons with disabilities? (Goal 10, Target 10.2)"
+      },
+      "sdg_10_3_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law? (Goal 10, Target 10.3)"
+      },
+      "sdg_10_4_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Labour share of GDP? (Goal 10, Target 10.4)"
+      },
+      "sdg_10_4_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Redistributive impact of fiscal policy on the Gini index? (Goal 10, Target 10.4)"
+      },
+      "sdg_10_5_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Financial Soundness Indicators? (Goal 10, Target 10.5)"
+      },
+      "sdg_10_6_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of members and voting rights of developing countries in international organizations? (Goal 10, Target 10.6)"
+      },
+      "sdg_10_7_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of countries with migration policies that facilitate orderly, safe, regular and responsible migration and mobility of people? (Goal 10, Target 10.7)"
+      },
+      "sdg_10_7_3": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Number of people who died or disappeared in the process of migration towards an international destination? (Goal 10, Target 10.7)"
+      },
+      "sdg_10_7_4": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of the population who are refugees, by country of origin? (Goal 10, Target 10.7)"
+      },
+      "sdg_10_7_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Recruitment cost borne by employee as a proportion of monthly income earned in country of destination? (Goal 10, Target 10.7)"
+      },
+      "sdg_10_a_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of tariff lines applied to imports from least developed countries and developing countries with zero-tariff? (Goal 10, Target 10.a)"
+      },
+      "sdg_10_b_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Total resource flows for development (e.g. official development assistance, foreign direct investment and other flows)? (Goal 10, Target 10.b)"
+      },
+      "sdg_10_c_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Remittance costs as a proportion of the amount remitted? (Goal 10, Target 10.c)"
+      },
+      "sdg_11_1_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of urban population living in slums, informal settlements or inadequate housing? (Goal 11, Target 11.1)"
+      },
+      "sdg_11_2_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of population that has convenient access to public transport, by sex, age and persons with disabilities? (Goal 11, Target 11.2)"
+      },
+      "sdg_11_3_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Ratio of land consumption rate to population growth rate? (Goal 11, Target 11.3)"
+      },
+      "sdg_11_3_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of cities with a direct participation structure of civil society in urban planning and management that operate regularly and democratically? (Goal 11, Target 11.3)"
+      },
+      "sdg_11_4_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Total per capita expenditure on the preservation, protection and conservation of all cultural and natural heritage, by source of funding (public, private), type of heritage (cultural, natural) and level of government (national, regional, and local/municipal)? (Goal 11, Target 11.4)"
+      },
+      "sdg_11_5_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population? (Goal 11, Target 11.5)"
+      },
+      "sdg_11_5_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Direct economic loss attributed to disasters in relation to global gross domestic product (GDP)? (Goal 11, Target 11.5)"
+      },
+      "sdg_11_5_3": {
+        "type": "boolean",
+        "description": "Does your project pertain to: (a) Damage to critical infrastructure and (b) number of disruptions to basic services, attributed to disasters? (Goal 11, Target 11.5)"
+      },
+      "sdg_11_6_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of municipal solid waste collected and managed in controlled facilities out of total municipal waste generated, by cities? (Goal 11, Target 11.6)"
+      },
+      "sdg_11_6_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Annual mean levels of fine particulate matter (e.g. PM2.5 and PM10) in cities (population weighted)? (Goal 11, Target 11.6)"
+      },
+      "sdg_11_7_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Average share of the built-up area of cities that is open space for public use for all, by sex, age and persons with disabilities? (Goal 11, Target 11.7)"
+      },
+      "sdg_11_7_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of persons victim of non-sexual or sexual harassment, by sex, age, disability status and place of occurrence, in the previous 12 months? (Goal 11, Target 11.7)"
+      },
+      "sdg_11_a_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Number of countries that have national urban policies or regional development plans that (a) respond to population dynamics; (b) ensure balanced territorial development; and (c) increase local fiscal space? (Goal 11, Target 11.a)"
+      },
+      "sdg_11_b_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015-2030? (Goal 11, Target 11.b)"
+      },
+      "sdg_11_b_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies? (Goal 11, Target 11.b)"
+      },
+      "sdg_11_c_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Total official development assistance and other official flows in support of urban infrastructure or urban infrastructure projects, by sector? (Goal 11, Target 11.c)"
+      },
+      "sdg_12_1_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Number of countries developing, adopting or implementing policy instruments aimed at supporting the shift to sustainable consumption and production? (Goal 12, Target 12.1)"
+      },
+      "sdg_12_2_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Material footprint, material footprint per capita, and material footprint per GDP? (Goal 12, Target 12.2)"
+      },
+      "sdg_12_2_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Domestic material consumption, domestic material consumption per capita, and domestic material consumption per GDP? (Goal 12, Target 12.2)"
+      },
+      "sdg_12_3_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: (a) Food loss index and (b) food waste index? (Goal 12, Target 12.3)"
+      },
+      "sdg_12_4_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Number of parties to international multilateral environmental agreements on hazardous waste, and other chemicals that meet their commitments and obligations in transmitting information as required by each relevant agreement? (Goal 12, Target 12.4)"
+      },
+      "sdg_12_4_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: (a) Hazardous waste generated per capita; and (b) proportion of hazardous waste treated, by type of treatment? (Goal 12, Target 12.4)"
+      },
+      "sdg_12_5_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: National recycling rate, tons of material recycled? (Goal 12, Target 12.5)"
+      },
+      "sdg_12_6_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Number of companies publishing sustainability reports? (Goal 12, Target 12.6)"
+      },
+      "sdg_12_7_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Number of countries implementing sustainable public procurement policies and action plans? (Goal 12, Target 12.7)"
+      },
+      "sdg_12_8_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Extent to which (i) global citizenship education and (ii) education for sustainable development are mainstreamed in (a) national education policies; (b) curricula; (c) teacher education; and (d) student assessment? (Goal 12, Target 12.8)"
+      },
+      "sdg_12_a_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Installed renewable energy-generating capacity in developing and developed countries (in watts per capita)? (Goal 12, Target 12.a)"
+      },
+      "sdg_12_b_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Implementation of standard accounting tools to monitor the economic and environmental aspects of tourism sustainability? (Goal 12, Target 12.b)"
+      },
+      "sdg_12_c_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Amount of fossil-fuel subsidies (production and consumption) per unit of GDP? (Goal 12, Target 12.c)"
+      },
+      "sdg_13_1_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population? (Goal 13, Target 13.1)"
+      },
+      "sdg_13_1_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015-2030? (Goal 13, Target 13.1)"
+      },
+      "sdg_13_1_3": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies? (Goal 13, Target 13.1)"
+      },
+      "sdg_13_2_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Total greenhouse gas emissions per year? (Goal 13, Target 13.2)"
+      },
+      "sdg_13_2_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Number of countries with nationally determined contributions, long-term strategies, national adaptation plans and adaptation communications, as reported to the secretariat of the United Nations Framework Convention on Climate Change? (Goal 13, Target 13.2)"
+      },
+      "sdg_13_3_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Extent to which (i) global citizenship education and (ii) education for sustainable development are mainstreamed in (a) national education policies; (b) curricula; (c) teacher education; and (d) student assessment? (Goal 13, Target 13.3)"
+      },
+      "sdg_13_a_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Amounts provided and mobilized in United States dollars per year in relation to the continued existing collective mobilization goal of the $100 billion commitment through to 2025? (Goal 13, Target 13.a)"
+      },
+      "sdg_13_b_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Number of least developed countries and small island developing States with nationally determined contributions, long-term strategies, national adaptation plans and adaptation communications, as reported to the secretariat of the United Nations Framework Convention on Climate Change? (Goal 13, Target 13.b)"
+      },
+      "sdg_14_1_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: (a) Index of coastal eutrophication; and (b) plastic debris density? (Goal 14, Target 14.1)"
+      },
+      "sdg_14_6_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Degree of implementation of international instruments aiming to combat illegal, unreported and unregulated fishing? (Goal 14, Target 14.6)"
+      },
+      "sdg_14_2_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Number of countries using ecosystem-based approaches to managing marine areas? (Goal 14, Target 14.2)"
+      },
+      "sdg_14_7_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Sustainable fisheries as a proportion of GDP in small island developing States, least developed countries and all countries? (Goal 14, Target 14.7)"
+      },
+      "sdg_14_3_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Average marine acidity (pH) measured at agreed suite of representative sampling stations? (Goal 14, Target 14.3)"
+      },
+      "sdg_14_a_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of total research budget allocated to research in the field of marine technology? (Goal 14, Target 14.a)"
+      },
+      "sdg_14_4_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of fish stocks within biologically sustainable levels? (Goal 14, Target 14.4)"
+      },
+      "sdg_14_b_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Degree of application of a legal/regulatory/policy/institutional framework which recognizes and protects access rights for small-scale fisheries? (Goal 14, Target 14.b)"
+      },
+      "sdg_14_5_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Coverage of protected areas in relation to marine areas? (Goal 14, Target 14.5)"
+      },
+      "sdg_14_c_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Number of countries making progress in ratifying, accepting and implementing through legal, policy and institutional frameworks, ocean-related instruments that implement international law, as reflected in the United Nations Convention on the Law of the Sea, for the conservation and sustainable use of the oceans and their resources? (Goal 14, Target 14.c)"
+      },
+      "sdg_15_1_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Forest area as a proportion of total land area? (Goal 15, Target 15.1)"
+      },
+      "sdg_15_1_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of important sites for terrestrial and freshwater biodiversity that are covered by protected areas, by ecosystem type? (Goal 15, Target 15.1)"
+      },
+      "sdg_15_2_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Progress towards sustainable forest management? (Goal 15, Target 15.2)"
+      },
+      "sdg_15_3_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of land that is degraded over total land area? (Goal 15, Target 15.3)"
+      },
+      "sdg_15_4_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Coverage by protected areas of important sites for mountain biodiversity? (Goal 15, Target 15.4)"
+      },
+      "sdg_15_4_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: (a) Mountain Green Cover Index and (b) proportion of degraded mountain land? (Goal 15, Target 15.4)"
+      },
+      "sdg_15_5_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Red List Index? (Goal 15, Target 15.5)"
+      },
+      "sdg_15_6_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Number of countries that have adopted legislative, administrative and policy frameworks to ensure fair and equitable sharing of benefits? (Goal 15, Target 15.6)"
+      },
+      "sdg_15_7_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of traded wildlife that was poached or illicitly trafficked? (Goal 15, Target 15.7)"
+      },
+      "sdg_15_8_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of countries adopting relevant national legislation and adequately resourcing the prevention or control of invasive alien species? (Goal 15, Target 15.8)"
+      },
+      "sdg_15_9_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: (a) Number of countries that have established national targets in accordance with or similar to Kunming-Montreal Global Biodiversity Framework Target 14 in their national biodiversity strategy and action plans and the progress reported towards these targets; and (b) integration of biodiversity into national accounting and reporting systems, defined as implementation of the System of Environmental-Economic Accounting? (Goal 15, Target 15.9)"
+      },
+      "sdg_15_a_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: (a) Official development assistance on conservation and sustainable use of biodiversity; and (b) revenue generated and finance mobilized from biodiversity-relevant economic instruments? (Goal 15, Target 15.a)"
+      },
+      "sdg_15_b_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: (a) Official development assistance on conservation and sustainable use of biodiversity; and (b) revenue generated and finance mobilized from biodiversity-relevant economic instruments? (Goal 15, Target 15.b)"
+      },
+      "sdg_15_c_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of traded wildlife that was poached or illicitly trafficked? (Goal 15, Target 15.c)"
+      },
+      "sdg_16_1_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Number of victims of intentional homicide per 100,000 population, by sex and age? (Goal 16, Target 16.1)"
+      },
+      "sdg_16_1_3": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of population subjected to (a) physical violence, (b) psychological violence and/or (c) sexual violence in the previous 12 months? (Goal 16, Target 16.1)"
+      },
+      "sdg_16_1_4": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of population that feel safe walking alone around the area they live after dark? (Goal 16, Target 16.1)"
+      },
+      "sdg_16_1_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Conflict-related deaths per 100,000 population, by sex, age and cause? (Goal 16, Target 16.1)"
+      },
+      "sdg_16_2_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of children aged 1-17 years who experienced any physical punishment and/or psychological aggression by caregivers in the past month? (Goal 16, Target 16.2)"
+      },
+      "sdg_16_2_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Number of victims of human trafficking per 100,000 population, by sex, age and form of exploitation? (Goal 16, Target 16.2)"
+      },
+      "sdg_16_2_3": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of young women and men aged 18-29 years who experienced sexual violence by age 18? (Goal 16, Target 16.2)"
+      },
+      "sdg_16_3_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Unsentenced detainees as a proportion of overall prison population? (Goal 16, Target 16.3)"
+      },
+      "sdg_16_3_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of victims of (a) physical, (b) psychological and/or (c) sexual violence in the previous 12 months who reported their victimization to competent authorities or other officially recognized conflict resolution mechanisms? (Goal 16, Target 16.3)"
+      },
+      "sdg_16_3_3": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of the population who have experienced a dispute in the past two years and who accessed a formal or informal dispute resolution mechanism, by type of mechanism? (Goal 16, Target 16.3)"
+      },
+      "sdg_16_4_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of seized, found or surrendered arms whose illicit origin or context has been traced or established by a competent authority in line with international instruments? (Goal 16, Target 16.4)"
+      },
+      "sdg_16_4_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Total value of inward and outward illicit financial flows (in current United States dollars)? (Goal 16, Target 16.4)"
+      },
+      "sdg_16_5_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of businesses that had at least one contact with a public official and that paid a bribe to a public official, or were asked for a bribe by those public officials during the previous 12 months? (Goal 16, Target 16.5)"
+      },
+      "sdg_16_5_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of persons who had at least one contact with a public official and who paid a bribe to a public official, or were asked for a bribe by those public officials, during the previous 12 months? (Goal 16, Target 16.5)"
+      },
+      "sdg_16_6_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Primary government expenditures as a proportion of original approved budget, by sector (or by budget codes or similar)? (Goal 16, Target 16.6)"
+      },
+      "sdg_16_6_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of population satisfied with their last experience of public services? (Goal 16, Target 16.6)"
+      },
+      "sdg_16_7_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportions of positions in national and local institutions, including (a) the legislatures; (b) the public service; and (c) the judiciary, compared to national distributions, by sex, age, persons with disabilities and population groups? (Goal 16, Target 16.7)"
+      },
+      "sdg_16_7_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of population who believe decision-making is inclusive and responsive, by sex, age, disability and population group? (Goal 16, Target 16.7)"
+      },
+      "sdg_16_8_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of members and voting rights of developing countries in international organizations? (Goal 16, Target 16.8)"
+      },
+      "sdg_16_9_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of children under 5 years of age whose births have been registered with a civil authority, by age? (Goal 16, Target 16.9)"
+      },
+      "sdg_16_10_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Number of verified cases of killing, kidnapping, enforced disappearance, arbitrary detention and torture of journalists, associated media personnel, trade unionists and human rights advocates in the previous 12 months? (Goal 16, Target 16.10)"
+      },
+      "sdg_16_10_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Number of countries that adopt and implement constitutional, statutory and/or policy guarantees for public access to information? (Goal 16, Target 16.10)"
+      },
+      "sdg_16_a_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Existence of independent national human rights institutions in compliance with the Paris Principles? (Goal 16, Target 16.a)"
+      },
+      "sdg_16_b_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law? (Goal 16, Target 16.b)"
+      },
+      "sdg_17_1_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Total government revenue as a proportion of GDP, by source? (Goal 17, Target 17.1)"
+      },
+      "sdg_17_1_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of domestic budget funded by domestic taxes? (Goal 17, Target 17.1)"
+      },
+      "sdg_17_2_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Net official development assistance, total and to least developed countries, as a proportion of the Organization for Economic Cooperation and Development (OECD) Development Assistance Committee donors’ gross national income (GNI)? (Goal 17, Target 17.2)"
+      },
+      "sdg_17_3_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Volume of remittances (in United States dollars) as a proportion of total GDP? (Goal 17, Target 17.3)"
+      },
+      "sdg_17_3_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Additional financial resources mobilized for developing countries from multiple sources? (Goal 17, Target 17.3)"
+      },
+      "sdg_17_4_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Debt service as a proportion of exports of goods, services and primary income? (Goal 17, Target 17.4)"
+      },
+      "sdg_17_5_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Number of countries that adopt and implement investment promotion regimes for developing countries, including the least developed countries? (Goal 17, Target 17.5)"
+      },
+      "sdg_17_6_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Fixed broadband subscriptions per 100 inhabitants, by speed? (Goal 17, Target 17.6)"
+      },
+      "sdg_17_7_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Total amount of funding for developing and developed countries to promote the development, transfer, dissemination and diffusion of environmentally sound technologies? (Goal 17, Target 17.7)"
+      },
+      "sdg_17_8_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of individuals using the Internet? (Goal 17, Target 17.8)"
+      },
+      "sdg_17_9_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Dollar value of official development assistance committed to developing countries? (Goal 17, Target 17.9)"
+      },
+      "sdg_17_10_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Worldwide weighted tariff-average? (Goal 17, Target 17.10)"
+      },
+      "sdg_17_11_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Developing countries’ and least developed countries’ share of global exports? (Goal 17, Target 17.11)"
+      },
+      "sdg_17_12_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Weighted average tariffs faced by developing countries, least developed countries and small island developing States? (Goal 17, Target 17.12)"
+      },
+      "sdg_17_13_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Macroeconomic Dashboard? (Goal 17, Target 17.13)"
+      },
+      "sdg_17_14_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Number of countries with mechanisms in place to enhance policy coherence of sustainable development? (Goal 17, Target 17.14)"
+      },
+      "sdg_17_15_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Extent of use of country-owned results frameworks and planning tools by providers of development cooperation? (Goal 17, Target 17.15)"
+      },
+      "sdg_17_16_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Number of countries reporting progress in multi-stakeholder development effectiveness monitoring frameworks that support the achievement of the sustainable development goals? (Goal 17, Target 17.16)"
+      },
+      "sdg_17_17_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Amount in United States dollars committed to public-private partnerships for infrastructure? (Goal 17, Target 17.17)"
+      },
+      "sdg_17_18_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Number of countries that have national statistical legislation that complies with the Fundamental Principles of Official Statistics? (Goal 17, Target 17.18)"
+      },
+      "sdg_17_18_3": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Number of countries with a national statistical plan that is fully funded and under implementation, by source of funding? (Goal 17, Target 17.18)"
+      },
+      "sdg_17_18_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Statistical capacity indicators? (Goal 17, Target 17.18)"
+      },
+      "sdg_17_19_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Dollar value of all resources made available to strengthen statistical capacity in developing countries? (Goal 17, Target 17.19)"
+      },
+      "sdg_17_19_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of countries that (a) have conducted at least one population and housing census in the last 10 years; and (b) have achieved 100 per cent birth registration and 80 per cent death registration? (Goal 17, Target 17.19)"
       }
     }
   },

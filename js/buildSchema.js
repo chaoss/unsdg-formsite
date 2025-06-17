@@ -21,7 +21,7 @@ async function getAPIData() {
 
 async function getSeriesData(indicatorCode) {
     try {
-        const response = await fetch(`https://unstats.un.org/sdgapi/v1/sdg/Indicator/${indicatorCode}`);
+        const response = await fetch(`https://unstats.un.org/sdgapi/v1/sdg/Indicator/${indicatorCode}/Series/List`);
         
         if (!response.ok) {
             throw new Error(`Response status: ${response.status}`);
@@ -50,7 +50,6 @@ async function buildSchemaFromSDGData(sdgData) {
 
     const properties = {};
 
-    // Add basic project information
     properties.projectName = {
         "type": "string",
         "description": "Name of your project"
@@ -61,17 +60,11 @@ async function buildSchemaFromSDGData(sdgData) {
         "description": "Brief description of your project"
     };
 
-    // Add required fields
     schema.required.push("projectName", "projectDescription");
 
-    // Limit to first 10 indicators for testing (remove this limit for full implementation)
-    const limitedData = sdgData.slice(0, 10);
-
-    // Process each SDG indicator
-    for (const indicator of limitedData) {
-        console.log(`Processing indicator ${indicator.code}...`);
+    for (const indicator of sdgData) {
+        console.log(`Processing indicator ${indicator.code}!`);
         
-        // Create a boolean field for each indicator
         const fieldKey = `sdg_${indicator.code.replace(/\./g, '_')}`;
         
         properties[fieldKey] = {
@@ -79,7 +72,6 @@ async function buildSchemaFromSDGData(sdgData) {
             "description": `Does your project pertain to: ${indicator.description}? (Goal ${indicator.goal}, Target ${indicator.target})`
         };
 
-        // Fetch detailed series data if available
         if (indicator.series && indicator.series.length > 0) {
             try {
                 const seriesData = await getSeriesData(indicator.code);
@@ -97,10 +89,9 @@ async function buildSchemaFromSDGData(sdgData) {
             } catch (error) {
                 console.error(`Error processing series for ${indicator.code}:`, error);
             }
-        }
 
-        // Add small delay to avoid overwhelming the API
-        await new Promise(resolve => setTimeout(resolve, 100));
+            await new Promise(resolve => setTimeout(resolve, 100));
+        }
     }
 
     schema.properties.items = properties;
@@ -114,7 +105,7 @@ async function writeJSONFile(schema) {
         const schemaString = JSON.stringify(schema, null, 2);
         
         fs.writeFileSync(filePath, schemaString, 'utf8');
-        console.log('Schema file written successfully to:', filePath);
+        console.log("Schema has been succesfully updated!");
     } catch (error) {
         console.error('Error writing schema file:', error);
         throw error;
@@ -123,16 +114,11 @@ async function writeJSONFile(schema) {
 
 async function buildSchema() {
     try {
-        console.log('Fetching SDG data...');
         const apiData = await getAPIData();
-        
-        console.log('Building schema from SDG data...');
         const schema = await buildSchemaFromSDGData(apiData);
         
-        console.log('Writing schema to file...');
         await writeJSONFile(schema);
         
-        console.log('Schema build complete!');
         return schema;
     } catch (error) {
         console.error('Error building schema:', error);
