@@ -84,7 +84,7 @@ async function downloadFile(data) {
 	// Create anchor element and create download link
 	const link = document.createElement("a");
 	link.href = URL.createObjectURL(blob);
-	link.download = "code.json";
+	link.download = "unsdg.json";
 
 	// Trigger the download
 	link.click();
