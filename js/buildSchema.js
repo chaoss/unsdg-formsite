@@ -67,9 +67,9 @@ async function buildSchemaFromSDGData(sdgData) {
         
         const fieldKey = `sdg_${indicator.code.replace(/\./g, '_')}`;
         
-        properties[fieldKey] = {
+        properties[`Does your project address: ${indicator.description}`] = {
             "type": "boolean",
-            "description": `Does your project pertain to: ${indicator.description}? (Goal ${indicator.goal}, Target ${indicator.target})`
+            "description": `Goal ${indicator.goal}, Target ${indicator.target}`
         };
 
         if (indicator.series && indicator.series.length > 0) {
@@ -80,9 +80,9 @@ async function buildSchemaFromSDGData(sdgData) {
                     seriesData.forEach((series, index) => {
                         const seriesKey = `${fieldKey}_series_${index + 1}`;
                         
-                        properties[seriesKey] = {
+                        properties[`Does your project address: ${series.description}`] = {
                             "type": "boolean",
-                            "description": `Does your project address: ${series.description || `Series ${index + 1} of indicator ${indicator.code}`}?`
+                            "description": `Series ${index + 1} of indicator ${indicator.code}?`
                         };
                     });
                 }
