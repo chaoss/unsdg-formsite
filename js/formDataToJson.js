@@ -56,29 +56,77 @@ function populateObject(data, schema) {
 	return reorderedObject;
 }
 
-async function populateCodeJson(data) {
+async function populateUnsdgJson(data) {
 	const filePath = "schemas/input.json";
 
 	// Retrieves schema with fields in correct order
 	const schema = await retrieveFile(filePath);
-	let codeJson = {};
+	let unsdgJson = {};
 
 	// Populates fields with form data
 	if (schema) {
-		codeJson = populateObject(data, schema);
+		unsdgJson = populateObject(data, schema);
 	} else {
 		console.error("Failed to retrieve JSON data.");
 	}
 
-	return codeJson;
+	return unsdgJson;
 }
 
-// Creates code.json and triggers file download
-async function downloadFile(data) {
+// Creates code.json object
+async function createUnsdgJson(data) {
 	delete data.submit;
-	const codeJson = await populateCodeJson(data);
+	const jsonData = await populateUnsdgJson(data);
 
-	const jsonString = JSON.stringify(codeJson, null, 2);
+	const jsonString = JSON.stringify(jsonData, null, 2);
+	document.getElementById("json-result").value = jsonString;
+}
+
+// Copies code.json to clipboard
+async function copyToClipboard(event){
+	event.preventDefault();
+
+	var textArea = document.getElementById("json-result");
+    textArea.select();
+	document.execCommand("copy")
+}
+
+// Triggers email(mailtolink)
+async function emailFile(event) {
+	event.preventDefault();
+
+	const codeJson = document.getElementById("json-result").value
+	const jsonObject = JSON.parse(codeJson);
+	
+    try {
+        const cleanData = {...jsonObject};
+        delete cleanData.submit;
+
+        const jsonString = JSON.stringify(cleanData, null, 2);
+
+        const subject = "unsdg.json Generator Results";
+        const body = `Hello,\n\nHere are the unsdg.json results:\n\n${jsonString}\n\nThank you!`;
+
+        const recipients = ["unsdg@chaoss.community"];
+
+        const mailtoLink = `mailto:${recipients}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+        window.location.href = mailtoLink;
+
+        console.log("Email client opened");
+    } catch {
+        console.error("Error preparing email:", error);
+        showNotificationModal("Error preparing email. Please try again or copy the data manually.", 'error');
+    }
+}
+
+// Triggers local file download
+async function downloadFile(event) {
+	event.preventDefault();
+
+	const codeJson = document.getElementById("json-result").value
+	const jsonObject = JSON.parse(codeJson);
+	const jsonString = JSON.stringify(jsonObject, null, 2);
 	const blob = new Blob([jsonString], { type: "application/json" });
 
 	// Create anchor element and create download link
@@ -91,3 +139,6 @@ async function downloadFile(data) {
 }
 
 window.downloadFile = downloadFile;
+window.copyToClipboard = copyToClipboard;
+window.emailFile = emailFile;
+window.createUnsdgJson = createUnsdgJson
