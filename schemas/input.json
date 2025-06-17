@@ -1,42 +1,63 @@
 {
-    "$schema": "http://json-schema.org/draft-04/schema#",
-    "title": "Sample Form to Collect Information on a User",
-    "description": "An example of using a JSON schema to create a form using Form.io",
-    "type": "object",
-    "properties": {
-        "items": {
-            "name": {
-                "type": "string",
-                "description": "Full name of user"
-            },
-            "description": {
-                "type": "string",
-                "description": "User's email address"
-            },
-            "age": {
-                "type": "integer",
-                "description": "User's age"
-            },
-            "dateOfBirth": {
-                "type": "string",
-                "format": "date-time",
-                "description": "User's date of birth (YYYY-MM-DD)"
-            },
-            "interests": {
-                "type": "array",
-                "items": {
-                    "type": "string",
-                    "enum": ["Technology", "Sports", "Music", "Travel", "Art"]
-                },
-                "description": "User's interests"
-            },
-            "contactPreference": {
-                "type": "string",
-                "enum": ["Email", "Phone", "Mail"],
-                "description": "Preferred method of contact (single-select)"
-            }
-        }
-    },
-    "required": ["name", "email", "age"],
-    "additionalProperties": false
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "SDG Project Assessment Form",
+  "description": "Assessment form to determine which Sustainable Development Goals your project addresses",
+  "type": "object",
+  "properties": {
+    "items": {
+      "projectName": {
+        "type": "string",
+        "description": "Name of your project"
+      },
+      "projectDescription": {
+        "type": "string",
+        "description": "Brief description of your project"
+      },
+      "sdg_1_1_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of the population living below the international poverty line by sex, age, employment status and geographic location (urban/rural)? (Goal 1, Target 1.1)"
+      },
+      "sdg_1_2_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of population living below the national poverty line, by sex and age? (Goal 1, Target 1.2)"
+      },
+      "sdg_1_2_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of men, women and children of all ages living in poverty in all its dimensions acc ording to national definitions? (Goal 1, Target 1.2)"
+      },
+      "sdg_1_3_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of population covered by social protection floors/systems, by sex, distinguishing children, unemployed persons, older persons, persons with disabilities, pregnant women, newborns, work-injury victims and the poor and the vulnerable? (Goal 1, Target 1.3)"
+      },
+      "sdg_1_4_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of population living in households with access to basic services? (Goal 1, Target 1.4)"
+      },
+      "sdg_1_4_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of total adult population with secure tenure rights to land, (a) with legally recognized documentation, and (b) who perceive their rights to land as secure, by sex and type of tenure? (Goal 1, Target 1.4)"
+      },
+      "sdg_1_5_1": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population? (Goal 1, Target 1.5)"
+      },
+      "sdg_1_5_2": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Direct economic loss attributed to disasters in relation to global gross domestic product (GDP)? (Goal 1, Target 1.5)"
+      },
+      "sdg_1_5_3": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015-2030? (Goal 1, Target 1.5)"
+      },
+      "sdg_1_5_4": {
+        "type": "boolean",
+        "description": "Does your project pertain to: Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies? (Goal 1, Target 1.5)"
+      }
+    }
+  },
+  "required": [
+    "projectName",
+    "projectDescription"
+  ],
+  "additionalProperties": false
 }
